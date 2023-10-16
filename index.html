@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="calculadora">
+        <div id="container_display">
+            <h1 id="display"></h1>
+        </div>
+        <div id="container_botoes">
+            <div class="botoes">
+                <button id="btn7" onclick="contador(7)">7</button>
+            </div>
+            <div class="botoes">
+                <button id="btn8" onclick="contador(8)">8</button>
+            </div>
+            <div class="botoes">
+                <button id="btn9" onclick="contador(9)">9</button>
+            </div>
+            <div class="botoes">
+                <button onclick="limpar()">C</button>
+            </div>
+            <div class="botoes">
+                <button id="btn4" onclick="contador(4)">4</button>
+            </div>
+            <div class="botoes">
+                <button id="btn5" onclick="contador(5)">5</button>
+            </div>
+            <div class="botoes">
+                <button id="btn6" onclick="contador(6)">6</button>
+            </div>
+            <div class="botoes">
+                <button onclick="divisao()">/</button>
+            </div>
+            <div class="botoes">
+                <button id="btn1" onclick="contador(1)">1</button>
+            </div>
+            <div class="botoes">
+                <button id="btn2" onclick="contador(2)">2</button>
+            </div>
+            <div class="botoes">
+                <button id="btn3" onclick="contador(3)">3</button></div>
+            <div class="botoes">
+                <button onclick="multiplicacao()">*</button>
+            </div>
+            <div class="botoes">
+                <button id="btn0" onclick="contador(0)">0</button>
+            </div>
+            <div class="botoes">
+                <button onclick="subtracao()">-</button>
+            </div>
+            <div class="botoes">
+                <button onclick="soma()">+</button>
+            </div>
+            <div class="botoes">
+                <button onclick="igual()">=</button>
+            </div>
+        </div>        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
