@@ -3,8 +3,20 @@ body {
 }
 
 #calculadora {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
     background: darkslategray;
     padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    #calculadora {
+        width: 90%;
+    }
 }
 
 #container_display {
@@ -47,5 +59,9 @@ h1 {
     color: white;
     width: 100%;
     padding: 20px;
-    font-size: 2.2rem;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
 }
